@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tetris</title>
+        <link rel="stylesheet" href="tetris.css">
+        <link rel="stylesheet" href="header.css">
+    </head>
+    <body>
+        <div class="header">
+            <a href="main menu\main.html" class="logo">Play Center</a>
+            <div class="header-right">
+                <a href="#about">About</a>
+            </div>
+        </div>
+        <div class="body">
+            <canvas id = "game-canvas" width="300" height="600"></canvas>
+            <h2 id = "scoreboard">Score: 0</h2>
+        </div>
+        <div>
+            <p>How to play</p>
+            <p>J to move left</p>
+            <p>L to move right</p>
+            <p>A for rotate</p>
+            <p>K for down</p>
+        </div>
+
+        
+        <script src="constants.js"></script>
+        <script src="piece.js"></script>
+        <script src="main.js"></script>
+        <script src="board.js"></script>
+    </body>
+</html>
